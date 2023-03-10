@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link href="css/profile.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="profile">
+      <h1>Profile</h1>
+      <form action="update-profile.php" method="post">
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" value="<?php echo $age; ?>" required>
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="dob" id="dob" value="<?php echo $dob; ?>" required>
+        <label for="contact">Contact</label>
+        <input type="text" name="contact" id="contact" value="<?php echo $contact; ?>" required>
+        <button type="submit">Update</button>
+      </form>
+      <p>Welcome To My World!
