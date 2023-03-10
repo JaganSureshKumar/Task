@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link href="css/login.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="login-form">
+      <h1>Log in</h1>
+      <form action="login.php" method="post">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" required>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required>
+        <button type="submit">Log in</button>
+      </form>
+      <p>Don't have an account yet? <a href="index.html">Sign up</a></p>
+    </div>
+  </body>
+</html>
